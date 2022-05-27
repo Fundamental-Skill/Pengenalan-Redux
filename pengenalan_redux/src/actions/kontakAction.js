@@ -22,7 +22,7 @@ export const getListKontak = () => {
       timeout: 120000,
     })
       .then((response) => {
-        console.log("3. Berhasil dapet Data : ", response);
+        console.log("3. Berhasil dapet Data : ", response.data);
         // berhasil get API
         dispatch({
           type: GET_LIST_KONTAK,
@@ -34,7 +34,7 @@ export const getListKontak = () => {
         });
       })
       .catch((error) => {
-        console.log("3. Gagal dapet Data : ", error);
+        console.log("3. Gagal dapet Data : ", error.message);
         // gagal get api
         dispatch({
           type: GET_LIST_KONTAK,
