@@ -1,0 +1,14 @@
+{
+    "kontaks": [
+        {
+            "id": 1,
+            "nama": "Ade Ristanto",
+            "nohp": "08217787637"
+        },
+        {
+            "id": 2,
+            "nama": "Joko Tingkir",
+            "nohp": "0813489399"
+        }
+    ]
+}
